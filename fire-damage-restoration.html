@@ -109,10 +109,11 @@
     }
     </script>
     
-    <!-- FAVICON: root mein favicon.png hai -->
-    <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+    <!-- FIX 1: Favicon - root mein hai -->
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FIX 2: global.css - root mein hai -->
     <link rel="stylesheet" href="/global.css" />
     <style type="text/tailwindcss">
       @theme inline {
@@ -303,13 +304,12 @@
           </div>
         </div>
 
-        <!-- Right Side: Image -->
+        <!-- Right Side: Image - FIX 3: exact image naam -->
         <div class="relative rounded-2xl overflow-hidden shadow-2xl border border-border bg-card">
           <img 
-            src="/a-damaged-residential-building-charred-by-fi51797ed.webp"
+            src="/firefighters-in-protective-gear-respond-to-a-hou-91a150a8.webp"
             alt="Fire Damage Restoration Orlando" 
             class="w-full h-[300px] sm:h-[400px] object-cover block"
-            onerror="this.onerror=null; this.src='/exterior-of-a-damaged-house-showing-destr.webp';"
           />
           <div class="absolute inset-0 bg-linear-to-t from-black/50 via-transparent to-transparent"></div>
         </div>
